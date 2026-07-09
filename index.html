@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Papan Pemuka Permit - MDJ</title>
-    <!-- Logo kecil kat tab atas -->
+    <!-- Logo kecil kat tab browser -->
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/ms/0/07/Majlis_Daerah_Jelebu.png" type="image/png">
     <style>
         body, html {
@@ -12,15 +12,14 @@
             padding: 0;
             height: 100%;
             width: 100%;
-            overflow: hidden; /* Halang scroll bar berganda */
+            overflow: hidden; /* Halang scroll bar luar berganda */
             background-color: #0f172a; 
         }
         .iframe-container {
             width: 100%;
-            height: 100%;
-            /* Trik untuk tolak banner amaran Google ke atas supaya tersorok */
-            margin-top: -30px; 
-            height: calc(100% + 30px);
+            /* Trik ajaib untuk tolak banner amaran Google ke atas supaya tak nampak langsung */
+            height: calc(100% + 45px); 
+            margin-top: -45px; 
         }
         iframe {
             width: 100%;
@@ -31,8 +30,10 @@
 </head>
 <body>
     <div class="iframe-container">
-        <!-- PENTING: Ganti link di bawah dengan Link Web App Apps Script bos -->
-        <iframe src="MASUKKAN_LINK_APPS_SCRIPT_DI_SINI"></iframe>
+        
+        <!-- ↓↓↓ MASUKKAN LINK APPS SCRIPT BOS DEKAT BAWAH NI ↓↓↓ -->
+        <iframe src="https://script.google.com/macros/s/LETAK_LINK_BOS_DI_SINI/exec"></iframe>
+        
     </div>
 </body>
-</html>    
+</html>
